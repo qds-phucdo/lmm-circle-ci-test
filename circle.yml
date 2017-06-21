@@ -2,5 +2,5 @@ test:
   override:
       - pip install coverage
       - pip install coveralls
-      - coverage run test deploy.py
+      - coverage run deploy.py
       - COVERALLS_REPO_TOKEN=Ntn6Ujk5bx0fJXJ7WumTKxNAa0B3Spinf coveralls
